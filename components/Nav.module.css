@@ -1,0 +1,35 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 97%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background: #cce3a0;
+  z-index: 1000;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+.logo {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.nav a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: #1f0e3bff;
+  font-weight: 500;
+}
+.titulo {
+  width: 200px;
+}

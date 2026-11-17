@@ -1,0 +1,61 @@
+.catalog{
+  padding:10px 40px;
+  background-color: #1a3513fc;
+  /*background: url('/fundointegrantes.png') center/contain repeat;*/
+  color:#cfcbd6;
+  font-family: 'Open Sans', sans-serif;
+}
+.catalog h2{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align:center;
+  font-size:28px;
+  margin-bottom:28px;
+  color:#bfb4d9;
+}
+.grid{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:28px;
+  max-width:1100px;
+  margin:0 auto;
+}
+.card{
+  background:transparent;
+  border-radius:8px;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  align-items:stretch;
+  box-shadow: 0 6px 0 rgba(0,0,0,0.4);
+}
+.media{
+  background:#1b2a18;
+  min-height:160px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.media img{
+  max-width:100%;
+  height:auto;
+  display:block;
+}
+.caption{
+  background:#7a4ea3;
+  padding:10px;
+  text-align:left;
+}
+.caption .title{
+  font-weight:600;
+  color:#121212;
+}
+.caption .designer{
+  font-size:12px;
+  color:#110f0f;
+}
+@media (max-width:900px){
+  .grid{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:600px){
+  .grid{grid-template-columns:1fr}
+}

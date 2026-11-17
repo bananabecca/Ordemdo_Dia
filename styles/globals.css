@@ -1,0 +1,25 @@
+:root {
+  --bg-dark: #243a1f;
+  --accent: #7a4ea3;
+  --muted: #bfb4d9;
+}
+html,
+body,
+#__next {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+main {
+  display: block;
+}
+a {
+  color: inherit;
+}
+img {
+  max-width: 100%;
+  display: block;
+}

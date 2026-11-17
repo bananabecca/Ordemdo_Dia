@@ -1,0 +1,105 @@
+.section {
+  padding: 48px 40px;
+  background-color: #1a3513fc;
+  color: #886eacff;
+  font-family: 'Poppins', sans-serif;
+}
+.section h2 {
+  text-align: center;
+  color: #886eacff;
+  margin-bottom: 18px;
+}
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  max-width: 1000px;
+  margin: 0 auto 34px;
+}
+.member {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.member img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.4);
+}
+.name {
+  background: #5927a3ff;
+  padding: 6px 10px;
+  border-radius: 6px;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+.contactArea {
+  display: flex;
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.emails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.caixaemail {
+  background: #2f1751;
+  padding: 12px;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.3);
+  color: #886eacff;
+  font-size: 14px;
+}
+.form {
+  flex: 1;
+  background: #2f1751;
+  padding: 18px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input,
+.form textarea {
+  background: #886eacff;
+  color: #1f0e3bff;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  resize: vertical;
+  min-height: 40px;
+}
+.form textarea {
+  min-height: 120px;
+}
+.form button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #886eacff;
+  color: #1f0e3bff;
+  font-weight: 600;
+}
+@media (max-width: 900px) {
+  .teamGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contactArea {
+    flex-direction: column;
+  }
+}
+@media (max-width: 600px) {
+  .teamGrid {
+    grid-template-columns: 1fr;
+  }
+}

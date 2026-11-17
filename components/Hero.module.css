@@ -1,0 +1,35 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 60px;
+  background-color: #ddafe9;
+}
+.esquerda h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #1f0e3bff;
+  line-height: 1.05;
+}
+.direita {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 350px;
+  max-width: 90%;
+}
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .esquerda h1 {
+    font-size: 34px;
+  }
+  .logo {
+    width: 220px;
+  }
+}

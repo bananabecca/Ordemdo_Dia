@@ -1,0 +1,61 @@
+.integrantes {
+  padding: 10px 40px;
+  /*background: url('/fundointegrantes.png') center/contain repeat;*/
+  text-align: center;
+}
+
+.integrantes h2 {
+  font-size: 2rem;
+  color: #bfa0e6;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px 160px;
+  justify-items: center;
+}
+
+.card {
+  background-color: #2a154b;
+  width: 220px;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  gap: 5px;
+}
+
+.imagem {
+  width: 180px;
+  height: 100%;
+}
+
+.foto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nomeVertical {
+  color: #886eacff;
+  font-weight: 600;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+  letter-spacing: 2px;
+}
